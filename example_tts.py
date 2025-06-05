@@ -1,6 +1,6 @@
 import subprocess
 
-command = ["pip", "install", "chatterbox"]
+command = ["pip", "install", "chatterbox-tts"]
 result = subprocess.run(command, capture_output=True, text=True)
 
 
